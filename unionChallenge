@@ -1,0 +1,40 @@
+// size(400,400);
+// ellipse(100,100,100,100);
+// ellipse(300,300,100,100);
+// ellipse(300,100,100,100);
+// ellipse(100,300,100,100);
+int x1=100;
+int x2=100;
+int x3=100;
+int x4=100;
+int z1=300;
+int z2=300;
+int z3=300;
+int z4=300;
+
+void setup(){
+	size(500,500);
+	
+}
+
+void draw(){
+	background(250)
+	ellipse(x1,x2,100,100);
+ellipse(z1,z2,100,100);
+ellipse(z3,x3,100,100);
+ellipse(x4,z4,100,100);
+	
+	x1++;
+	x2++;
+	
+	z1--;
+	z2--;
+	
+	z3--;
+	x3++;
+	
+	z4--;
+	x4++;
+	
+	
+}
